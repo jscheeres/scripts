@@ -1,3 +1,10 @@
+#
+# Description: This script clones all the secrets from one key vault to another.
+#
+# originVault: The name of the source key vault.
+# destinationVault: The name of the destination key vault.
+#
+
 param (
     [string]$originVault,
     [string]$destinationVault
